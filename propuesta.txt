@@ -1,0 +1,1000 @@
+ 1013  cd SorteoAspirantes2014
+ 1014  ls
+ 1015  cd classes/
+ 1016  ls
+ 1017  sh compilaJar.sh 
+ 1018  ls -l
+ 1019  java -jar registro.jar 
+ 1020  cd ..
+ 1021  su posgres
+ 1022  su postgres
+ 1023  pg_dump -t academias -f academias.out iztapalapa1
+ 1024  pg_dump -U postgres -t academias -f academias.out iztapalapa1
+ 1025  pg_dump -U kylix -t academias -f academias.out iztapalapa1
+ 1026  ls -l
+ 1027  cat academias.out 
+ 1028  psql -u kylix  nomina_cfdi < academias.out
+ 1029  psql -U kylix  nomina_cfdi < academias.out
+ 1030  exit
+ 1031  cd /etc/postgresql
+ 1032  ls
+ 1033  cd 9.1
+ 1034  ls
+ 1035  cd main/
+ 1036  ls
+ 1037  sudo nano pg_hba.conf
+ 1038  /etc/init.d/postgresql  restart
+ 1039  sudo /etc/init.d/postgresql  restart
+ 1040  psql -U kylix -h 192.168.1.1 template1
+ 1041  ifconfig
+ 1042  sudo nano pg_hba.conf
+ 1043  sudo /etc/init.d/postgresql  restart
+ 1044  ssh -l root 189.254.33.156
+ 1045  ssh -l cesar 189.254.33.156
+ 1046  history
+ 1047  ssh -l eduardozp 189.254.33.152
+ 1048  ssh -l root 189.254.33.148
+ 1049  xit
+ 1050  ssh -l root 189.254.33.156
+ 1051  ssh -l root 192.168.1.86
+ 1052  ssh -l root 189.254.33.148
+ 1053  clear
+ 1054  ssh -l root 189.254.33.156
+ 1055  mysql -u root -p
+ 1056  apt-get install php5-adodb
+ 1057  sudo apt-get install php5-adodb
+ 1058  ssh -l eduardozp 189.254.33.152
+ 1059  cd /var/www
+ 1060  ls
+ 1061  chmod -R 777 seval
+ 1062  sudo chmod -R 777 seval
+ 1063  ssh -l root 189.254.33.148
+ 1064  mysql -u root -p
+ 1065  cd sigedo
+ 1066  ls
+ 1067  mysql -u root -p sigedo < sigedo_ces.sql 
+ 1068  df -h
+ 1069  ssh -l serverweb2 189.254.33.156
+ 1070  ping correo.iems.edu.mx
+ 1071  ssh -l serverweb2 189.254.33.156
+ 1072  ping www.iems.df.gob.mx
+ 1073  traceroute www.iems.df.gob.mx
+ 1074  traceroute www.iems.edu.mx
+ 1075  traceroute www.iems.df.gob.mx
+ 1076  ssh -l eduardozp 189.254.33.152
+ 1077  exit
+ 1078  ssh -l root 189.254.33.148
+ 1079  ssh -l eduardozp 189.254.33.152
+ 1080  exit
+ 1081  ssh -l serverweb2 189.254.33.156
+ 1082  s
+ 1083  ssh -l serverweb2 189.254.33.156
+ 1084  s
+ 1085  ssh -l serverweb2 189.254.33.156
+ 1086  xit
+ 1087  ssh -l sgdgmo
+ 1088  ssh -l sgdgm 132.248.152.124
+ 1089  ping www.iems.df.gob.mx
+ 1090  traceroute www.iems.df.gob.mx
+ 1091  ssh -l sgdgm 132.248.152.124
+ 1092  ssh -l serverweb2 189.254.33.156
+ 1093  ssh -l sgdgm 132.248.152.124
+ 1094  www.iems.edy.mx
+ 1095  www.iems.df.gob.mx
+ 1096  ping http://www.iems.df.gob.mx/
+ 1097  traceroute http://www.iems.df.gob.mx/
+ 1098  traceroute www.iems.df.gob.mx/
+ 1099  ping  www.iems.df.gob.mx/
+ 1100  ssh -l serverweb2 189.254.33.156
+ 1101  istem2014
+ 1102  ping correo.iems.edu.mx
+ 1103  ssh -l root 189.254.33.148
+ 1104  cat forward.iems.edu.mx
+ 1105  ssh -l root 189.254.33.148
+ 1106  cd ..
+ 1107  ssh -l sgdgm 132.248.152.124
+ 1108  ssh -l root 189.254.33.148
+ 1109  ssh -l sgdgm 132.248.152.124
+ 1110  ssh -l root 189.254.33.148
+ 1111  ssh -l sgdgm 132.248.152.124
+ 1112  udo aptitude install bind9
+ 1113  sudo aptitude install bind9
+ 1114  ssh -l sgdgm 132.248.152.124
+ 1115  s
+ 1116  ssh -l sgdgm 132.248.152.124
+ 1117  s
+ 1118  ssh -l sgdgm 132.248.152.124
+ 1119  ls
+ 1120  ssh -l sgdgm 132.248.152.124
+ 1121  cd resp2
+ 1122  ls
+ 1123  ssh -l sgdgm 132.248.152.124
+ 1124  s
+ 1125  ssh -l sgdgm 132.248.152.124
+ 1126  ping www.iems.edu.mx
+ 1127  ssh -l sgdgm 132.248.152.124
+ 1128  s
+ 1129  ssh -l sgdgm 132.248.152.124
+ 1130  exit
+ 1131  ssh -l root 189.254.33.148
+ 1132  ssh -l sgdgm 132.248.152.124
+ 1133  ing correo.iems.edu.mx
+ 1134  ping correo.iems.edu.mx
+ 1135  ping gen.iems.edu.mx
+ 1136  ping correo.iems.edu.mx
+ 1137  ssh -l sgdgm 132.248.152.124
+ 1138  clear
+ 1139  ssh -l sgdgm 132.248.152.124
+ 1140  dig www.iems.edu.mx
+ 1141  dig www.iems.df.gob.mx
+ 1142  dig correo.iems.edu.mx
+ 1143  traceroute correo.iems.edu.mx
+ 1144  ping www.iems.edu.mx
+ 1145  ping iemsdf.dyndns.org
+ 1146  ping iemsdf.dyndns.org -t
+ 1147  ping iemsdf.dyndns.org -i
+ 1148  ping iemsdf.dyndns.org -t 5
+ 1149  ping iemsdf.dyndns.org
+ 1150  ping iems.edu.mx
+ 1151  ping www.iems.edu.mx
+ 1152  ping iemsdf.dyndns.org
+ 1153  ping 132.248
+ 1154  ping 132.248.152.124
+ 1155  ssh -l sgdgm 132.248.152.124
+ 1156  s
+ 1157  ls
+ 1158  cd /etc/bind
+ 1159  ssh -l sgdgm 132.248.152.124
+ 1160  ssh -l sgdgm 132.248.152.124
+ 1161  ping correo.iems.edu.mx
+ 1162  ifconfig
+ 1163  ping www.iems.edu.mx
+ 1164  sudo dhclient
+ 1165  ifconfig
+ 1166  sudo nano /etc/network/interfaces 
+ 1167  ping 192.168.1.4
+ 1168  ping 192.168.1.1
+ 1169  ping 192.168.1.84
+ 1170  ssh -l serverweb2 192.168.1.84
+ 1171  ping 192.168.1.84
+ 1172  ping 192.168.1.86
+ 1173  ping 192.168.1.84
+ 1174  ssh -l serverweb2 192.168.1.84
+ 1175  ssh -l root iems.edu.mx
+ 1176  ping www.iemsdf.gob.mx
+ 1177  ping www.iems.df.gob.mx
+ 1178  ping www.iems.df.gob.mxasfsdfgsdfgsdgdfsg
+ 1179  ssh -l root 189.254.33.148
+ 1180  ssh -l sgdgm 132.248.152.124
+ 1181  ls
+ 1182  scp -l serverweb2 192.168.1.84
+ 1183  scp sigedof.sql serverweb2@192.168.1.84
+ 1184  ssh -l serverweb2 192.168.1.84
+ 1185  scp sigedof.sql serverweb2@192.168.1.84:.
+ 1186  ssh -l serverweb2 192.168.1.84
+ 1187  ssh -l sgdgm 132.248.152.124
+ 1188  ssh -l serverweb2 192.168.1.84
+ 1189  ls
+ 1190  ssh -l root 189.254.33.148
+ 1191  mysql -h 192.168.1.86 -u root -p 
+ 1192  ssh -l serverweb2 192.168.1.84
+ 1193  mysql -h 192.168.1.86 -u root -p 
+ 1194  mysql -h 192.168.1.84 -u root -p 
+ 1195  ifconfig
+ 1196  exit
+ 1197  ifconfig
+ 1198  cd Descargas/
+ 1199  ls
+ 1200  chmod +x dbeaver_2.4.2_amd64.deb 
+ 1201  sudo dpkg -i dbeaver_2.4.2_amd64.deb 
+ 1202  ifconfig
+ 1203  mysql -h 192.168.1.86 -u root -p 
+ 1204  ssh -l serverweb2 192.168.1.84
+ 1205  ping 192.168.1.84
+ 1206  ping 192.168.1.86
+ 1207  ping 192.168.1.84
+ 1208  ping 192.168.1.86
+ 1209  ping 192.168.1.84
+ 1210  ssh -l serverweb2 192.168.1.84
+ 1211  ssh -l serverweb2 192.168.1.86
+ 1212  ping 132.248.1521.124
+ 1213  ping 189.254.33.124
+ 1214  ping 189.254.33.148
+ 1215  ssh root@192.168.1.1
+ 1216  sistemas
+ 1217  ping 189.254.33.148
+ 1218  pn
+ 1219  ping 132.248.152.124
+ 1220  sudo netstat -lp --inet 
+ 1221  sudo netstat -lp --inet
+ 1222  ls cron*
+ 1223  cd /etc
+ 1224  ls cron*
+ 1225  cat crontab 
+ 1226  crontab -e
+ 1227  uptime
+ 1228  w
+ 1229  sudo crontab -e -u root
+ 1230  sudo crontab -e -u cesar
+ 1231  sudo less /var/log/cron
+ 1232  cd /var/www
+ 1233  sudo chmod -R 777 js/
+ 1234  ping www.iems.edu.mx
+ 1235  ssh -l sgdgm 132.248.152.124
+ 1236  xit
+ 1237  exit
+ 1238  cd /var/www
+ 1239  ls
+ 1240  chmod -R 777 spdgm
+ 1241  cd new_sigedo/
+ 1242  ls
+ 1243  cd css
+ 1244  cd img
+ 1245  wget http://demo.sd.invgate.net/img/toolbar-blue.png
+ 1246  wget http://demo.sd.invgate.net/img/bn-gradient.png
+ 1247  cd icons/
+ 1248  wget http://demo.sd.invgate.net/img/icons/incidents_unsolved.png
+ 1249  wget http://demo.sd.invgate.net/img/icons/incidents_solved.png
+ 1250  wget http://demo.sd.invgate.net/img/icons/incidents_closed.png
+ 1251  wget http://demo.sd.invgate.net/img/icons/incidents_unassigned.png
+ 1252  wget http://demo.sd.invgate.net/img/icons/incidents_my.png
+ 1253  wget http://demo.sd.invgate.net/img/icons/incidents_other.png
+ 1254  wget http://demo.sd.invgate.net/img/icons/incidents_views.png
+ 1255  wget demo.sd.invgate.net/img/icons/kb_home.png
+ 1256  wget http://demo.sd.invgate.net/img/icons/kb_new.png
+ 1257  wget http://demo.sd.invgate.net//img/icons/kb_favorite.png
+ 1258  wget http://demo.sd.invgate.net/img/icons/reports_sla.png
+ 1259  wget http://demo.sd.invgate.net/img/icons/reports_agent.png
+ 1260  wget http://demo.sd.invgate.net/img/icons/reports_saved.png
+ 1261  cd ..}
+ 1262  cd ..
+ 1263  cd .
+ 1264  cd ..
+ 1265  cd uploads/
+ 1266  wget http://demo.sd.invgate.net//uploads/profile/img/4.png
+ 1267  cd ..
+ 1268  cd img
+ 1269  cd css
+ 1270  cs img/icons/
+ 1271  cd img/icons/
+ 1272  wget http://demo.sd.invgate.net//img/icons/exclamation_dark_16.png
+ 1273  cd ..
+ 1274  cd loaders/
+ 1275  wget http://demo.sd.invgate.net/img/loaders/loader_bg_red.gif
+ 1276  cd ..
+ 1277  cd icons/
+ 1278  wget demo.sd.invgate.net/img/icons/search.png
+ 1279  cd ..
+ 1280  wget http://demo.sd.invgate.net//img/add2.png
+ 1281  wget http://demo.sd.invgate.net/img/bar01-green.png
+ 1282  cd icons/
+ 1283  wget http://demo.sd.invgate.net//img/icons/close_grey.png
+ 1284  cd ..
+ 1285  wget http://demo.sd.invgate.net//img/colorbox/controls.png
+ 1286  wget http://demo.sd.invgate.net//img/colorbox/loading_background.png
+ 1287  wget http://demo.sd.invgate.net//img/loaders/loader2.gif
+ 1288  wget http://demo.sd.invgate.net/img/icons/close_red.png
+ 1289  cd icons/
+ 1290  wget http://demo.sd.invgate.net/img/icons/close_red.png
+ 1291  wget http://demo.sd.invgate.net/img/icons/close_grey.png
+ 1292  cd ..
+ 1293  wget demo.sd.invgate.net/img/drop-grey.png
+ 1294  wget http://demo.sd.invgate.net/img/bn-gradient.png
+ 1295  wget http://demo.sd.invgate.net//img/input_bg.png
+ 1296  wget http://demo.sd.invgate.net//img/arrow_up_grey.png
+ 1297  wget http://demo.sd.invgate.net//img/calendar.png
+ 1298  cd timeEntry/
+ 1299  wget http://demo.sd.invgate.net/img/timeEntry/spinnerUpDown.png
+ 1300  cd ..
+ 1301  wget http://demo.sd.invgate.net/img/bn-gradient.png
+ 1302  wget http://demo.sd.invgate.net/img/action_button.png
+ 1303  wget http://demo.sd.invgate.net/img/updated_flag_en.png
+ 1304  ssl - nodimax 192.168.1.78
+ 1305  ssh -l nodimax 192.168.1.78
+ 1306  ping 192.168.1.78
+ 1307  ssh -l nodimax 192.168.1.78
+ 1308  cd /var/www
+ 1309  ls
+ 1310  ls -l
+ 1311  sudo chmod -R 777 chive/
+ 1312  ls
+ 1313  sudo chmod -R 777 tabs/
+ 1314  sudo chmod -R 777 ajax/
+ 1315  sudo chmod -R 777 grids/
+ 1316  mysql -u root -p
+ 1317  exit
+ 1318  ssh -l sgdgm 132.248.152.124
+ 1319  XIT
+ 1320  cd /var/www
+ 1321  ls
+ 1322  chmod -R 777 spdgm
+ 1323  sudo mkdir 4js
+ 1324  cd ..
+ 1325  sudo mkdir sistema4js
+ 1326  cd /etc/network/
+ 1327  ls
+ 1328  cat interfaces 
+ 1329  sudo /etc/init.d/network restart
+ 1330  sudo /etc/init.d/networking restart
+ 1331  ifconfig
+ 1332  cd ..
+ 1333  ls
+ 1334  cd sistema4js/
+ 1335  sudo touch prueba.txt
+ 1336  cd /opt/
+ 1337  sudo mkdir fourjs
+ 1338  cd fourjs/
+ 1339  ls
+ 1340  mkdir gst
+ 1341  sudo mkdir gst
+ 1342  ls
+ 1343  cd ..
+ 1344  ls
+ 1345  sudo chmdo -R 777 fourjs/
+ 1346  sudo chmdod -R 777 fourjs/
+ 1347  sudo chmod -R 777 fourjs/
+ 1348  ls
+ 1349  cd fourjs/
+ 1350  ls
+ 1351  gedit /etc/fstab
+ 1352  sudo gedit /etc/fstab
+ 1353  cd /sistema4js/
+ 1354  rm -r *.*
+ 1355  sudo rm -r *.*
+ 1356  ls
+ 1357  cd ..
+ 1358  ls
+ 1359  sudo chmod -R 777 sistema4js/
+ 1360  SUDO DHCLIENT
+ 1361  sudo dhclient
+ 1362  ifconfig
+ 1363  exit
+ 1364  sudo apt-get install sshfs
+ 1365  sudo apt-get install sshfs
+ 1366  sshfs cesar@10.12.0.10:/sistema4js /sistema4js
+ 1367  ifconfig
+ 1368  sudo dhclient
+ 1369  ifconfig
+ 1370  sudo dhclient
+ 1371  ifconfig
+ 1372  sudo dhclient
+ 1373  ifconfig
+ 1374  cd /var/www
+ 1375  ls
+ 1376  sudo chmod -R 777 spdgm
+ 1377  ls
+ 1378  ssh -l sgdgm 132.248.152.124
+ 1379  exit
+ 1380  cd sigedon/
+ 1381  ls
+ 1382  node sigedo.js 
+ 1383  ifconfig
+ 1384  cd /
+ 1385  ls
+ 1386  cd sistema4js/
+ 1387  ls
+ 1388  sshfs cesar@10.12.0.10:/sistema4js /sistema4js
+ 1389  ls
+ 1390  cd ..
+ 1391  sshfs cesar@10.12.0.10:/sistema4js /sistema4js
+ 1392  cd sistema4js/
+ 1393  ls
+ 1394  ping 10.12.0.206
+ 1395  wget 10.12.0.206
+ 1396  ifconfig
+ 1397  sudo dhclient
+ 1398  ifconfig
+ 1399  sudo dhclient 
+ 1400  ifconfig
+ 1401  sudo dhclient 
+ 1402  ifconfig
+ 1403  sudo dhclient 
+ 1404  ifconfig
+ 1405  sudo dhclient 
+ 1406  ifconfig
+ 1407  sudo dhclient
+ 1408  ifconfig
+ 1409  sudo dhclient
+ 1410  ifocnfig
+ 1411  ifconfig
+ 1412  sudo add-apt-repository ppa:webupd8team/sublime-text-3 
+ 1413  sudo apt-get update 
+ 1414  sudo add-apt-repository ppa:webupd8team/sublime-text-3 
+ 1415  sudo apt-get update 
+ 1416  sudo add-apt-repository ppa:webupd8team/sublime-text-3 
+ 1417  sudo apt-get update 
+ 1418  sudo apt-get install sublime-text-installer
+ 1419  ifconfig
+ 1420  exit
+ 1421  ssh -l sgdgm 132.248.152.124
+ 1422  cd /var/www
+ 1423  ls
+ 1424  chmod -R 777 spdgm
+ 1425  exit
+ 1426  ssh -l sgdgm 132.248.152.124
+ 1427  s -l
+ 1428  ssh -l sgdgm 132.248.152.124
+ 1429  exit
+ 1430  sudo apt-get install gpart
+ 1431  cd /media
+ 1432  ls
+ 1433  cd 0226BDA826BD9CDB/
+ 1434  ls
+ 1435  cd ..
+ 1436  ls
+ 1437  fdisk -l
+ 1438  lsusb
+ 1439  cURL
+ 1440  cURL http://curl/haxx.se
+ 1441  sudo apt-get install curl
+ 1442  curl http://curl/haxx.se
+ 1443  curl http://www.iems.edu.mx
+ 1444  ifconfig
+ 1445  ping 10.12.0.206
+ 1446  ssh -l root 10.12.0.7
+ 1447  ping 10.12.0.7
+ 1448  ping 10.12.0.206
+ 1449  ping 10.12.0.7 -t
+ 1450  ping 10.12.0.7 
+ 1451  ping 10.12.0.171
+ 1452  ssh -l root  10.12.0.7
+ 1453  ssh -l root  10.12.0.171
+ 1454  ssh -l root 10.12.0.206
+ 1455  exit
+ 1456  ssh -l root 10.12.0.206
+ 1457  ifconfig
+ 1458  sudo dhclient
+ 1459  ifconfig
+ 1460  sudo dhclient
+ 1461  ifconfig
+ 1462  sudo dhclient
+ 1463  ifconfig
+ 1464  sudo dhclient
+ 1465  ifconfig
+ 1466  sudo dhclient
+ 1467  ifconfig
+ 1468  sudo dhclient
+ 1469  sudo /etc/init.d/networking restart
+ 1470  sudo dhclient
+ 1471  ifconfig
+ 1472  sudo dhclient
+ 1473  ifconfig
+ 1474  exit
+ 1475  ifconfig
+ 1476  ifconfig eth0 down
+ 1477  sudo ifconfig eth0 down
+ 1478  sudo ifconfig eth0 up
+ 1479  ifconfig
+ 1480  sudo dhclient
+ 1481  ifconfig
+ 1482  sudo dhclient
+ 1483  sudo /etc/init.d/networking restart
+ 1484  cat /etc/interfaces
+ 1485  cd /etc/network/
+ 1486  ls
+ 1487  cat interfaces 
+ 1488  exit
+ 1489  sudo dhclient
+ 1490  ifocnfog
+ 1491  ifconfig
+ 1492  sudo dhclient
+ 1493  ipconfig
+ 1494  ifconfig
+ 1495  ssh -l root 10.12.0.206
+ 1496  ping [3~[3~[C
+ 1497  ping 10.12.0.206
+ 1498  ssh -l root 10.12.0.206
+ 1499  ping 10.12.0.206
+ 1500  ssh -l root 10.12.0.206
+ 1501  ls
+ 1502  ssh -l root 10.12.0.206
+ 1503  ssh -l root 10.12.0.7
+ 1504  exit
+ 1505  ssh -l eduardozp 10.12.4.7
+ 1506  exit
+ 1507  ssh -l root 10.12.0.7
+ 1508  exit
+ 1509  ssh -l eduardozp 10.12.4.7
+ 1510  ps -fea
+ 1511  ps -fea | grep navicat
+ 1512  sudo kill -9 14828
+ 1513  exit
+ 1514  ssh -l root 10.12.0.7
+ 1515  ssh -l eduardozp 10.12.4.7
+ 1516  exit
+ 1517  ssh -l ROOT 10.12.0.7
+ 1518  ssh -l root 10.12.0.7
+ 1519  ssh -l abel  10.12.4.5
+ 1520  cd /opt
+ 1521  ls
+ 1522  cd yii-1.1.13.e9e4a0/
+ 1523  ls
+ 1524  cd framework/
+ 1525  ls
+ 1526  ./yiic webapp /var/www/admon
+ 1527  cd /var/www
+ 1528  chmod -R 777 admon/
+ 1529  sudo chmod -R 777 admon/
+ 1530  ls
+ 1531  ssh -l root 10.12.0.7
+ 1532  exit
+ 1533  ssh -l abel 10.12.4.5
+ 1534  ssh -l root 10.12.0.7
+ 1535  ifcconfig
+ 1536  ifconfig
+ 1537  ssh -l root 10.12.0.7 
+ 1538  ssh -l abel 10.1.4.5
+ 1539  ssh -l abel 10.12.4.5
+ 1540  ssh -l eduardozp 10.12.4.7
+ 1541  ping 10.12.0.206
+ 1542  ping 189.254.33.148
+ 1543  ping www.ssh -l root 10.12.0.7
+ 1544  ssh -l abel 10.12.4.5
+ 1545  ssh -l eduardozp 10.12.4.7
+ 1546  exit
+ 1547  ping 10.12.4.201
+ 1548  ssh -l root 10.12.0.7
+ 1549  exit
+ 1550  ssh -l root 10.12.0.171
+ 1551  exit
+ 1552  ssh -l root 10.12.0.7
+ 1553  ssh -l root 10.12.0.171
+ 1554  ping 10.12.0.7
+ 1555  ssh -l root 10.12.0.7
+ 1556  ping 10.12.0.7
+ 1557  ssh -l root 10.12.0.7
+ 1558  ssh -l abel 10.12.4.5
+ 1559  ssh -l eduardozp 10.12.4.7
+ 1560  wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+ 1561  heroku login
+ 1562  heroku addons:add heroku-postgresql
+ 1563  heroku addons:add heroku-postgresql redNatura
+ 1564  git clone git@github.com/maggit/proyectox-mejorandola
+ 1565  git clone https://github.com/maggit/proyectox-mejorandola.git
+ 1566  cd proyectox-mejorandola/
+ 1567  ls
+ 1568  rail s
+ 1569  rails s
+ 1570  ssh -l eduardozp 10.12.4.7
+ 1571  sudo dhclient
+ 1572  ifconfig
+ 1573  ping 132.248.152.124
+ 1574  ping www.iems.edu.mx
+ 1575  ping 132.248.152.124
+ 1576  ping www.google.com
+ 1577  ifconfig
+ 1578  sudo dhclient
+ 1579  sudo dhclient eth0
+ 1580  ifconfig
+ 1581  ssh -l eduardozp 10.12.4.7
+ 1582  ssh -l serverweb 10.12.10
+ 1583  ping 10.12.10.5
+ 1584  ping 10.12.0.5
+ 1585  ping 189.254.33.158
+ 1586  ping 10.12.0.5
+ 1587  ssh -l root 10.12.0.5
+ 1588  ssh -l serverweb2 10.12.0.5
+ 1589  ssh -l root 10.12.0.206
+ 1590  ssh -l eduardozp 10.12.4.7
+ 1591  ping 10.12.0.5
+ 1592  ifconfig
+ 1593  ssh -l root 189.254.33.148
+ 1594  ifconfig
+ 1595  ssh -l root 10.12.4.7
+ 1596  ssh -l eduardozp 10.12.4.7
+ 1597  ssh -l serverweb2 10.12.0.5
+ 1598  ssh -l root 10.12.0.206
+ 1599  ssh -l serverweb2 10.12.0.5
+ 1600  ssh -l root 10.12.0.206
+ 1601  ssh -l serverweb2 10.12.0.5
+ 1602  ping 10.12.0.206
+ 1603  ping 10.12.0.7
+ 1604  ping 10.12.0.5
+ 1605  ssh -l serverweb2 10.12.0.5
+ 1606  ping 10.12.0.206
+ 1607  ping 10.12.0.5
+ 1608  ping 10.12.4.7
+ 1609  ssh -l eduardozp 10.12.4.7
+ 1610  dig sistemas.iems.edu.mx
+ 1611  dig estudiantes.iems.edu.mx
+ 1612  dig sistemas.iems.edu.mx
+ 1613  ping 189.254.33.158
+ 1614  ping 10.12.0.5
+ 1615  ssh -l serverweb2 10.12.0.5
+ 1616  ssh -l eduardozp 10.12.4.7
+ 1617  ssh -l serverweb2 10.12.0.5
+ 1618  ssh -l root 10.12.0.7
+ 1619  ssh -l eduardozp 10.12.4.7
+ 1620  node -v
+ 1621  ssh -l root 10.12.0.7
+ 1622  cd /etc/postgresql
+ 1623  ls
+ 1624  cd 9.1
+ 1625  ls
+ 1626  cd main/
+ 1627  ls
+ 1628  nano pg_hba.conf
+ 1629  sudo nano pg_hba.conf
+ 1630  sudo /etc/init.d/postgresql restart
+ 1631  cd ..
+ 1632  cd 9.2
+ 1633  ls
+ 1634  cd main
+ 1635  ls
+ 1636  sudo nano pg_hba.conf
+ 1637  sudo /etc/init.d/postgresql restart
+ 1638  sudo nano pg_hba.conf
+ 1639  sudo /etc/init.d/postgresql restart
+ 1640  cd ..
+ 1641  cd 9.1
+ 1642  ls
+ 1643  cd main
+ 1644  sudo /etc/init.d/postgresql restart
+ 1645  sudo nano pg_hba.conf
+ 1646  sudo /etc/init.d/postgresql restart
+ 1647  ping 10.12.0.10
+ 1648  tail /etc/log/cron
+ 1649  tail /var/log/cron
+ 1650  cd var
+ 1651  cd /var/
+ 1652  ls
+ 1653  cd log
+ 1654  ls
+ 1655  ping 10.12.0.10
+ 1656  ls
+ 1657  ssh -l root 10.12.0.206
+ 1658  dig www.iems.edu.mx
+ 1659  dig www.iems.edu.mx NS
+ 1660  dig iems.edu.mx MX
+ 1661  ls --color
+ 1662  ls
+ 1663  df -h
+ 1664  cd /var/www
+ 1665  ls
+ 1666  sudo chmod -R sigedonew
+ 1667  sudo chmod -R 777 sigedonew
+ 1668  cd /
+ 1669  ls
+ 1670  exit
+ 1671  cd .ssh
+ 1672  ls 
+ 1673  cat id_rsa.pub 
+ 1674  ls
+ 1675  cat id_rsa
+ 1676  ssh-keygen -t rsa -b 4096
+ 1677  ssh user@50.17.103.180
+ 1678  ssh user@50.17.103.180 -vvv
+ 1679  ipTables -L
+ 1680  sudo ipTables -L
+ 1681  sudo iptables -L
+ 1682  ping 10.12.0.5
+ 1683  ssh user@50.17.103.180 -vvv
+ 1684  cd /opt
+ 1685  ls
+ 1686  cd yii-1.1.13.e9e4a0/
+ 1687  ls
+ 1688  cd framework/
+ 1689  ls
+ 1690  ./yicc webapp /var/www/erp_iems
+ 1691  sh yicc webapp /var/www/erp_iems
+ 1692  sudo ./yicc webapp /var/www/erp_iems
+ 1693  sudo sh ./yicc webapp /var/www/erp_iems
+ 1694  sudo sh yicc webapp /var/www/erp_iems
+ 1695  ./yiic webapp /var/www/erp_iems
+ 1696  exit
+ 1697  sudo nano /etc/hosts
+ 1698  sudo /etc/init.d/networking restart
+ 1699  ssh -l eduardozp 10.12.4.7
+ 1700  cd /var/www
+ 1701  sudo chmod -777 sigedomx/
+ 1702  sudo chmod -R  777 sigedomx/
+ 1703  cd /var/www
+ 1704  chmod -R 755 sigedof/
+ 1705  sudo chmod -R 755 sigedof/
+ 1706  sudo chmod -R 777 sigedof/
+ 1707  gunicorn_django 
+ 1708  sudo apt-get install gunicorn
+ 1709  gunicorn -b 0.0.0.0.8080
+ 1710  gunicorn_django -b 0.0.0.0.8080
+ 1711  gunicorn_django -b 0.0.0.0.8081
+ 1712  gunicorn_django -b 0.0.0.0.8000
+ 1713  gunicorn_django -v
+ 1714  apt-get install supervisor
+ 1715  sudo apt-get install supervisor
+ 1716  cd /etc/supervisor/conf.d/
+ 1717  ls
+ 1718  sudo touch myapp.conf
+ 1719  nano myapp.conf 
+ 1720  sudo /etc/init.d/ngnix
+ 1721  sudo apt-get install nginix
+ 1722  sudo apt-get install ngnix
+ 1723  uname -a
+ 1724  ssh -l serverweb2  189.254.33.158 
+ 1725  ssh -l root  189.254.33.158 
+ 1726  ping 10.12.4.5
+ 1727  ping 10.12.0.5
+ 1728  ping 10.12.0.4
+ 1729  ssh -l root  189.254.33.158 
+ 1730  ssh -l root  10.12.0.7
+ 1731  ssh -l abel 10.12.4.5
+ 1732  cd /var/www
+ 1733  chmod -R 777 todo/
+ 1734  chmod -R 777 backbone
+ 1735  ssh -l root 10.12.0.5
+ 1736  ssh -l root 189.254.33.158
+ 1737  ping  189.254.33.158
+ 1738  chmod -R 777 materials/
+ 1739  ssh -l root 10.12.0.5
+ 1740  ssh -l root 189.254.33.128
+ 1741  ssh -l root 189.254.33.158
+ 1742  ping 189.254.33.158
+ 1743  ping 189.254.33.148
+ 1744  ping 189.254.33.158
+ 1745  ssh -l root 189.254.33.158
+ 1746  ping 189.254.33.158
+ 1747  node -v
+ 1748  cd /var/www
+ 1749  sudo chmod -R 777 backbonejs/
+ 1750  cd backbone
+ 1751  cd ..
+ 1752  cd backbonejs/
+ 1753  npm install
+ 1754  sudo npm install
+ 1755  clear
+ 1756  npm install
+ 1757  sudo npm install
+ 1758  clear
+ 1759  sudo npm install
+ 1760  npm install
+ 1761  ssh -l root 10.12.0.7
+ 1762  ssh -l root 10.12.4.5
+ 1763  ssh -l abel 10.12.4.5
+ 1764  ssh -l eduardozp 1012.4.5
+ 1765  ssh -l eduardozp 10.12.4.5
+ 1766  ssh -l eduardozp 10.12.4.7
+ 1767  ssh -l root 10.12.0.7
+ 1768  ssh -l root 10.12.0.171
+ 1769  cd /var/www
+ 1770  ls
+ 1771  chmod -R 777 sigiems
+ 1772  ssh -l root 10.12.0.171
+ 1773  ssh -l sgdgm 132.248.152.124
+ 1774  ssh -l eduardozp 10.12.4.7
+ 1775  exit
+ 1776  ssh -l root 10.12.0.7
+ 1777  exit
+ 1778  ssh -l root 10.12.0.171
+ 1779  ssh -l eduardozp 10.12.4.7
+ 1780  ssh -l root 10.12.0.7
+ 1781  history | grep ssh 
+ 1782  sshfs cesar@10.12.0.10:/sistema4js /sistema4js
+ 1783  ssh -l root 10.12.0.7
+ 1784  ssh -l eduardozp 10.12.4.7
+ 1785  exit
+ 1786  ping 10.4.7.1
+ 1787  exit
+ 1788  ssh -l root 189.254.33.158
+ 1789  ssh -l root 189.254.33.148
+ 1790  ssh -l root 189.254.33.158
+ 1791  exit
+ 1792  ssh -l root 10.12.0.7
+ 1793  exit
+ 1794  ssh -l abel 10.12.4.7
+ 1795  ssh -l abel 10.12.0.5
+ 1796  ssh -l abel 10.12.4.5
+ 1797  ssh -l root 10.12.0.7
+ 1798  exit
+ 1799  ssh -l sgdgm 132.248.152.124
+ 1800  ssh -l eduardozp 10.12.4.7
+ 1801  cd /var/www
+ 1802  ls
+ 1803  chmod -R 777 jssor/
+ 1804  exit
+ 1805  ssh -l root 10.12.0.7
+ 1806  exit
+ 1807  dig bitnueve.mx
+ 1808  composer
+ 1809  composer install
+ 1810  sudo /usr/local/bin/composer self-update
+ 1811  composer install
+ 1812  ssh -l root 10.12.0.7
+ 1813  exit
+ 1814  ssh -l root 10.12.0.171
+ 1815  ssh -l eduardozp 10.12.4.7
+ 1816  exit
+ 1817  ssh -l root 10.12.0.7
+ 1818  ps -fea
+ 1819  ps -fea | grep team
+ 1820  kill -9 1430
+ 1821  sudo kill -9 1430
+ 1822  sudo kill -9 2417
+ 1823  ps -fea | grep team
+ 1824  sudo kill -9 4811
+ 1825  ps -fea | grep team
+ 1826  cd /var/www/micrositio/protected/
+ 1827  ls
+ 1828  cgmod -R 777 runtime/
+ 1829  chmod -R 777 runtime/
+ 1830  ls
+ 1831  cd ..
+ 1832  chmod -R 777 assets/
+ 1833  sudo nautilus
+ 1834  exit
+ 1835  history ssh
+ 1836  history 
+ 1837  history | grep ssh
+ 1838  sshfs cesar@10.12.0.10:/sistema4js /sistema4js
+ 1839  ls
+ 1840  cd /sistema4js/
+ 1841  ls
+ 1842  cd gst
+ 1843  exit
+ 1844  ssh -l cesar 10.12.0.10
+ 1845  exit
+ 1846  ls -l
+ 1847  cd Documentos/
+ 1848  cd sigedo/
+ 1849  ls
+ 1850  mysql -u root -p 
+ 1851  mysql -u root -p sigedo < sigedogenero.sql 
+ 1852  mysql -u root -p 
+ 1853  exit
+ 1854  ls
+ 1855  cd fourjs/
+ 1856  ls
+ 1857  cd gst
+ 1858  ls
+ 1859  cd fgl
+ 1860  ls
+ 1861  cd lib
+ 1862  ls
+ 1863  fglWrt -d
+ 1864  cd ..
+ 1865  ls
+ 1866  cd bin
+ 1867  ls
+ 1868  fglWrt -d
+ 1869  ./fglWrt -d
+ 1870  ./fglWrt -a see
+ 1871  ./fglWrt -l
+ 1872  ./fglWrt -a see
+ 1873  ls
+ 1874  ssh -l 10.12.0.206
+ 1875  ssh -l root 10.12.0.206
+ 1876  ./fglWrt -a 
+ 1877  LS
+ 1878  ls
+ 1879  cd ..
+ 1880  ls
+ 1881  envcomp
+ 1882  ./envcomp
+ 1883  sudo ./envcomp
+ 1884  ./envcomp
+ 1885  sudo ./envcomp
+ 1886  sudo sh envcomp
+ 1887  cd /home/cesar
+ 1888  ls
+ 1889  git clone https://github.com/mejorandolaclase/nodejs-avanzado.git
+ 1890  ls -l
+ 1891  cd nodejs-avanzado/
+ 1892  ls
+ 1893  node server.js 
+ 1894  npm install
+ 1895  sudo npm install
+ 1896  node server.js 
+ 1897  sudo npm install
+ 1898  sudo apt-get install node
+ 1899  sudo npm install
+ 1900  sudo apt-get install npm
+ 1901  sudo apt-get install nodejs
+ 1902  sudo apt-get install npm
+ 1903  sudo apt-get install -f
+ 1904  sudo apt-get -f install
+ 1905  sudo apt-get install npm
+ 1906  sudo apt-get install nodejs
+ 1907  sudo apt-get install npm
+ 1908  sudo apt-get install nodejs-dev
+ 1909  sudo apt-get install -f
+ 1910  exit
+ 1911  history
+ 1912  sshfs cesar@10.12.0.10:/sistema4js /sistema4js
+ 1913  cd /var/www
+ 1914  ls
+ 1915  sudo chmod -R 777 chive/
+ 1916  sshfs cesar@10.12.0.10:/sistema4js /sistema4js
+ 1917  ssh -l root 189.254.33.148 
+ 1918  exit
+ 1919  cd Descargas/
+ 1920  ls
+ 1921  sudo chmod -R 777 google-chrome-stable_current_amd64.deb 
+ 1922  dpkg -i google-chrome-stable_current_amd64.deb
+ 1923  sudo dpkg -i google-chrome-stable_current_amd64.deb
+ 1924  ls
+ 1925  ls -la
+ 1926  history
+ 1927  sshfs cesar@10.12.0.10:/sistema4js /sistema4js
+ 1928  ls -la
+ 1929  exit
+ 1930  history
+ 1931  sshfs eduradozp@10.12.4.7:/Trabajo /sistema4js
+ 1932  sshfs eduardozp@10.12.4.7:/Trabajo /sistema4js
+ 1933  sshfs eduardozp@10.12.4.7:/  /sistema4js
+ 1934  ssh -l eduardozp 10.12.4.7
+ 1935  cd /var/www
+ 1936  ls
+ 1937  git status
+ 1938  git clone https://github.com/cmorones/recm.git
+ 1939  git remote .v
+ 1940  cd recm
+ 1941  git remote -v
+ 1942  git remote add dev https://github.com/cmorones/recm.git
+ 1943  git remote -v
+ 1944  git branch
+ 1945  git branch -a
+ 1946  git branch -r
+ 1947  git remote -v
+ 1948  git remote rm dev
+ 1949  git remote -v
+ 1950  git remote add upstream https://github.com/8-CRBRS/recm.git
+ 1951  git remote -v
+ 1952  git branch -r
+ 1953  git remote -v
+ 1954  git fetch upstream
+ 1955  ls
+ 1956  git status
+ 1957  git add .
+ 1958  git commit -m "Anexo cesar2.php"
+ 1959  git push
+ 1960  git remote -v
+ 1961  git pull upstream
+ 1962  git pull upstream dev
+ 1963  git pull upstream master
+ 1964  git status
+ 1965  git add .
+ 1966  git commit -m "Archivo cesar3.php"
+ 1967  git push
+ 1968  git status
+ 1969  ls -l
+ 1970  ssh -l sgdgm 132.248.152.124
+ 1971  ssh -l root 189.254.33.148
+ 1972  history
+ 1973  sshfs cesar@10.12.0.10:/sistema4js /sistema4js
+ 1974  cd /var/wwww
+ 1975  cd /var/www
+ 1976  ls
+ 1977  cd sigedo
+ 1978  cd ..
+ 1979  sigedo_dirA
+ 1980  cd sigedo_dirA
+ 1981  ls
+ 1982  cd sigedodirA/
+ 1983  ls
+ 1984  cd css/
+ 1985  ls
+ 1986  wget http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css
+ 1987  ls
+ 1988  chmod -R 777 jquery.dataTables.css 
+ 1989  ls
+ 1990  wget http://cdn.datatables.net/plug-ins/9dcbecd42ad/integration/bootstrap/3/dataTables.bootstrap.css
+ 1991  ls
+ 1992  ssh -l sgdgm  132.248.152.124
+ 1993  exit
+ 1994  pwd
+ 1995  git clone https://github.com/mejorandolaclase/mejorandogit.git
+ 1996  ls
+ 1997  rm -rf mejorandogit/
+ 1998  git clone https://github.com/cmorones/mejorandogit.git
+ 1999  git remote -v
+ 2000  cd mejorandogit/
+ 2001  git remote -v
+ 2002  git remote add upstream https://github.com/mejorandolaclase/mejorandogit.git 
+ 2003  git remote -v
+ 2004  git branch -a
+ 2005  git fecth upstream
+ 2006  git feth upstream
+ 2007  git fetch upstream
+ 2008  git merge upstream/master
+ 2009  touch propuesta.txt
+ 2010  ls
+ 2011  git status
+ 2012  history > propuesta.txt
